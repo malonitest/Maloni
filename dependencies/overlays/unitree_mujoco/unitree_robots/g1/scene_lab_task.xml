@@ -1,0 +1,262 @@
+<mujoco model="MALONI Robotics Laboratory">
+  <include file="g1_29dof_task.xml" />
+  <statistic center="0 0 1" extent="9" />
+  <visual>
+    <global azimuth="55" elevation="-12" offwidth="1600" offheight="1000" />
+    <quality shadowsize="4096" offsamples="4" />
+    <headlight ambient=".20 .22 .24" diffuse=".20 .21 .22" specular=".15 .15 .15" />
+    <rgba haze=".8 .86 .9 1" />
+    <map znear=".01" zfar="80" fogstart="20" fogend="60" />
+  </visual>
+  <asset>
+    <texture name="lab_sky" type="skybox" builtin="gradient" rgb1=".48 .65 .82" rgb2=".9 .95 .99" width="512" height="3072" />
+    <material name="lab_floor" rgba="1 1 1 1" specular=".18" shininess=".24" texture="lab_floor_finish" texrepeat="1 1" texuniform="true" />
+    <material name="lab_wall" rgba=".80 .84 .86 1" specular=".08" shininess=".12" />
+    <material name="lab_metal" rgba=".19 .25 .30 1" specular=".5" shininess=".65" />
+    <material name="lab_white" rgba=".87 .91 .93 1" specular=".25" shininess=".4" />
+    <material name="lab_dark" rgba=".055 .085 .11 1" specular=".3" shininess=".35" />
+    <material name="lab_wood" rgba="1 1 1 1" specular=".1" shininess=".2" texture="lab_wood_finish" texrepeat="1 1" texuniform="false" />
+    <material name="lab_glass" rgba=".46 .73 .82 .18" specular=".65" shininess=".8" />
+    <material name="lab_teal" rgba=".07 .59 .56 1" specular=".22" shininess=".45" />
+    <material name="lab_amber" rgba=".94 .55 .14 1" specular=".2" shininess=".3" />
+    <material name="lab_leaf" rgba=".12 .32 .23 1" specular=".12" shininess=".2" />
+    <material name="lab_seam" rgba=".35 .41 .44 1" specular=".05" shininess=".1" />
+    <texture name="lab_floor_finish" type="2d" file="lab_assets/concrete.png" />
+    <texture name="lab_wood_finish" type="2d" file="lab_assets/oak.png" />
+    <material name="lab_strip" rgba=".35 .94 .85 1" emission=".8" specular=".2" />
+    <material name="lab_light" rgba=".98 .97 .90 1" emission=".8" specular=".2" />
+    <texture name="lab_sign_tex" type="2d" file="lab_assets/lab_sign.png" />
+    <material name="lab_sign" texture="lab_sign_tex" texrepeat="1 1" texuniform="false" emission=".2" specular=".1" />
+    <texture name="lab_screen_tex" type="2d" file="lab_assets/monitor.png" />
+    <material name="lab_screen" texture="lab_screen_tex" texrepeat="1 1" texuniform="false" emission=".2" specular=".1" />
+  </asset>
+  <worldbody>
+    <light name="daylight" pos="-5 -4 8" dir="1 .7 -1.6" diffuse=".58 .59 .56" specular=".3 .3 .3" directional="true" castshadow="true" />
+    <light name="ceiling_fill" pos="1 3 4.2" dir="0 0 -1" diffuse=".32 .36 .40" specular=".3 .3 .3" directional="true" castshadow="false" />
+    <light name="bench_fill" pos="-6 3 3" dir="1 -1 -1" diffuse=".10 .14 .17" specular=".3 .3 .3" directional="true" castshadow="false" />
+    <light name="interior_key" pos="0 -2 4.3" dir="0 .3 -1" diffuse=".62 .61 .57" specular=".3 .3 .3" directional="false" castshadow="true" cutoff="100" exponent="1" attenuation="1 0 0" />
+    <geom name="floor" type="plane" size="0 0 .05" material="lab_floor" conaffinity="3" />
+    <geom name="lab_floor_x_-8" type="box" pos="-8 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_-7" type="box" pos="-7 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_-6" type="box" pos="-6 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_-5" type="box" pos="-5 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_-4" type="box" pos="-4 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_-3" type="box" pos="-3 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_-2" type="box" pos="-2 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_-1" type="box" pos="-1 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_0" type="box" pos="0 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_1" type="box" pos="1 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_2" type="box" pos="2 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_3" type="box" pos="3 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_4" type="box" pos="4 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_5" type="box" pos="5 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_6" type="box" pos="6 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_7" type="box" pos="7 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_x_8" type="box" pos="8 0 0.0004" size="0.006 6 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_-6" type="box" pos="0 -6 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_-5" type="box" pos="0 -5 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_-4" type="box" pos="0 -4 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_-3" type="box" pos="0 -3 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_-2" type="box" pos="0 -2 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_-1" type="box" pos="0 -1 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_0" type="box" pos="0 0 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_1" type="box" pos="0 1 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_2" type="box" pos="0 2 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_3" type="box" pos="0 3 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_4" type="box" pos="0 4 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_5" type="box" pos="0 5 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_floor_y_6" type="box" pos="0 6 0.0004" size="8 0.006 0.0003" material="lab_seam" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_arena_x_-4.5" type="box" pos="-4.5 0 0.001" size="0.025 3.5 0.0005" material="lab_teal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_arena_x_4.5" type="box" pos="4.5 0 0.001" size="0.025 3.5 0.0005" material="lab_teal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_arena_y_-3.5" type="box" pos="0 -3.5 0.001" size="4.5 0.025 0.0005" material="lab_teal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_arena_y_3.5" type="box" pos="0 3.5 0.001" size="4.5 0.025 0.0005" material="lab_teal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_corner_-4.5_-3.5" type="box" pos="-4.5 -3.5 0.003" size="0.16 0.16 0.001" material="lab_amber" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_corner_-4.5_3.5" type="box" pos="-4.5 3.5 0.003" size="0.16 0.16 0.001" material="lab_amber" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_corner_4.5_-3.5" type="box" pos="4.5 -3.5 0.003" size="0.16 0.16 0.001" material="lab_amber" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_corner_4.5_3.5" type="box" pos="4.5 3.5 0.003" size="0.16 0.16 0.001" material="lab_amber" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rear_wall" type="box" pos="0 6 2.4" size="8 0.13 2.4" material="lab_wall" conaffinity="3" />
+    <geom name="lab_west_wall" type="box" pos="-8 0 2.4" size="0.13 6 2.4" material="lab_wall" conaffinity="3" />
+    <geom name="lab_skirting_y_-5.9" type="box" pos="0 -5.9 0.12" size="8 0.04 0.12" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skirting_y_5.85" type="box" pos="0 5.85 0.12" size="8 0.04 0.12" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skirting_west" type="box" pos="-7.84 0 0.12" size="0.04 6 0.12" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_panel_-7" type="box" pos="-7 5.86 1.55" size="0.92 0.02 1.25" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_reveal_-7" type="box" pos="-6 5.83 2.2" size="0.012 0.015 2" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_panel_-5" type="box" pos="-5 5.86 1.55" size="0.92 0.02 1.25" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_reveal_-5" type="box" pos="-4 5.83 2.2" size="0.012 0.015 2" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_panel_-3" type="box" pos="-3 5.86 1.55" size="0.92 0.02 1.25" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_reveal_-3" type="box" pos="-2 5.83 2.2" size="0.012 0.015 2" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_panel_-1" type="box" pos="-1 5.86 1.55" size="0.92 0.02 1.25" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_reveal_-1" type="box" pos="0 5.83 2.2" size="0.012 0.015 2" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_panel_1" type="box" pos="1 5.86 1.55" size="0.92 0.02 1.25" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_reveal_1" type="box" pos="2 5.83 2.2" size="0.012 0.015 2" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_panel_3" type="box" pos="3 5.86 1.55" size="0.92 0.02 1.25" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_reveal_3" type="box" pos="4 5.83 2.2" size="0.012 0.015 2" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_panel_5" type="box" pos="5 5.86 1.55" size="0.92 0.02 1.25" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_reveal_5" type="box" pos="6 5.83 2.2" size="0.012 0.015 2" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_panel_7" type="box" pos="7 5.86 1.55" size="0.92 0.02 1.25" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_wall_reveal_7" type="box" pos="8 5.83 2.2" size="0.012 0.015 2" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rear_light" type="box" pos="0 5.77 4.25" size="7.6 0.035 0.025" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_west_light" type="box" pos="-7.75 0 4.25" size="0.035 5.6 0.025" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_brand_sign" type="plane" pos="0 5.77 3.25" size="2.3 0.77 0.001" material="lab_sign" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_glass_-5" type="box" pos="7.9 -5 2.3" size="0.035 1.43 2.2" material="lab_glass" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_mullion_-5" type="box" pos="7.82 -6.5 2.3" size="0.065 0.055 2.3" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_glass_-2" type="box" pos="7.9 -2 2.3" size="0.035 1.43 2.2" material="lab_glass" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_mullion_-2" type="box" pos="7.82 -3.5 2.3" size="0.065 0.055 2.3" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_glass_1" type="box" pos="7.9 1 2.3" size="0.035 1.43 2.2" material="lab_glass" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_mullion_1" type="box" pos="7.82 -0.5 2.3" size="0.065 0.055 2.3" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_glass_4" type="box" pos="7.9 4 2.3" size="0.035 1.43 2.2" material="lab_glass" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_mullion_4" type="box" pos="7.82 2.5 2.3" size="0.065 0.055 2.3" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_glass_beam_0.2" type="box" pos="7.82 0 0.2" size="0.065 6 0.055" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_glass_beam_4.6" type="box" pos="7.82 0 4.6" size="0.065 6 0.055" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_outside_lawn" type="box" pos="14 0 -0.04" size="5 15 0.03" material="lab_leaf" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_trunk_0" type="cylinder" pos="12 -9.0 1.2" size="0.14 1.2" material="lab_wood" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_crown_0" type="ellipsoid" pos="12 -9.0 2.8" size="0.95 0.95 1.3" material="lab_leaf" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_trunk_1" type="cylinder" pos="15 -5.4 1.2" size="0.14 1.2" material="lab_wood" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_crown_1" type="ellipsoid" pos="15 -5.4 2.8" size="0.95 0.95 1.3" material="lab_leaf" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_trunk_2" type="cylinder" pos="12 -1.7999999999999998 1.2" size="0.14 1.2" material="lab_wood" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_crown_2" type="ellipsoid" pos="12 -1.7999999999999998 2.8" size="0.95 0.95 1.3" material="lab_leaf" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_trunk_3" type="cylinder" pos="15 1.8000000000000007 1.2" size="0.14 1.2" material="lab_wood" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_crown_3" type="ellipsoid" pos="15 1.8000000000000007 2.8" size="0.95 0.95 1.3" material="lab_leaf" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_trunk_4" type="cylinder" pos="12 5.4 1.2" size="0.14 1.2" material="lab_wood" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_crown_4" type="ellipsoid" pos="12 5.4 2.8" size="0.95 0.95 1.3" material="lab_leaf" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_trunk_5" type="cylinder" pos="15 9.0 1.2" size="0.14 1.2" material="lab_wood" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_tree_crown_5" type="ellipsoid" pos="15 9.0 2.8" size="0.95 0.95 1.3" material="lab_leaf" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_ceiling_y_-4.75" type="box" pos="0 -4.75 4.85" size="8 1.25 0.08" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_ceiling_y_4.75" type="box" pos="0 4.75 4.85" size="8 1.25 0.08" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_ceiling_x_-6.5" type="box" pos="-6.5 0 4.85" size="1.5 3.5 0.08" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_ceiling_x_6.5" type="box" pos="6.5 0 4.85" size="1.5 3.5 0.08" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skylight_beam_-4.9" type="box" pos="-4.9 0 4.82" size="0.045 3.5 0.07" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skylight_beam_0" type="box" pos="0 0 4.82" size="0.045 3.5 0.07" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skylight_beam_4.9" type="box" pos="4.9 0 4.82" size="0.045 3.5 0.07" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skylight_frame_-3.5" type="box" pos="0 -3.5 4.82" size="5 0.045 0.07" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skylight_frame_0" type="box" pos="0 0 4.82" size="5 0.045 0.07" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skylight_frame_3.5" type="box" pos="0 3.5 4.82" size="5 0.045 0.07" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_skylight" type="box" pos="0 0 4.91" size="4.9 3.45 0.018" material="lab_glass" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_bench_top_0" type="box" pos="-5.7 4.65 0.98" size="1.45 0.6 0.06" material="lab_wood" conaffinity="3" />
+    <geom name="lab_bench_leg_0_-1.18" type="box" pos="-6.88 4.65 0.46" size="0.065 0.43 0.46" material="lab_metal" conaffinity="3" />
+    <geom name="lab_bench_leg_0_1.18" type="box" pos="-4.5200000000000005 4.65 0.46" size="0.065 0.43 0.46" material="lab_metal" conaffinity="3" />
+    <geom name="lab_bench_drawer_0" type="box" pos="-6.4 4.65 0.66" size="0.45 0.49 0.25" material="lab_white" conaffinity="3" />
+    <geom name="lab_drawer_handle_0_0.53" type="box" pos="-6.4 4.140000000000001 0.53" size="0.24 0.025 0.012" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_drawer_handle_0_0.7" type="box" pos="-6.4 4.140000000000001 0.7" size="0.24 0.025 0.012" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_drawer_handle_0_0.85" type="box" pos="-6.4 4.140000000000001 0.85" size="0.24 0.025 0.012" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_monitor_base_0" type="box" pos="-5.4 4.65 1.075" size="0.28 0.2 0.025" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_monitor_stem_0" type="box" pos="-5.4 4.7700000000000005 1.32" size="0.035 0.035 0.23" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_monitor_case_0" type="box" pos="-5.4 4.79 1.63" size="0.55 0.055 0.34" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_monitor_display_0" type="plane" pos="-5.4 4.729 1.63" size="0.515 0.3 0.001" material="lab_screen" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_keyboard_0" type="box" pos="-5.4 4.6000000000000005 1.055" size="0.38 0.115 0.018" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_instrument_0" type="box" pos="-6.7 4.7 1.24" size="0.27 0.3 0.2" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_instrument_face_0" type="box" pos="-6.7 4.3950000000000005 1.24" size="0.22 0.01 0.13" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_instrument_dial_0_0" type="cylinder" pos="-6.84 4.375 1.21" size="0.023 0.012" material="lab_teal" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_instrument_dial_0_1" type="cylinder" pos="-6.71 4.375 1.21" size="0.023 0.012" material="lab_teal" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_instrument_dial_0_2" type="cylinder" pos="-6.58 4.375 1.21" size="0.023 0.012" material="lab_teal" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_bench_top_1" type="box" pos="5.7 4.65 0.98" size="1.45 0.6 0.06" material="lab_wood" conaffinity="3" />
+    <geom name="lab_bench_leg_1_-1.18" type="box" pos="4.5200000000000005 4.65 0.46" size="0.065 0.43 0.46" material="lab_metal" conaffinity="3" />
+    <geom name="lab_bench_leg_1_1.18" type="box" pos="6.88 4.65 0.46" size="0.065 0.43 0.46" material="lab_metal" conaffinity="3" />
+    <geom name="lab_bench_drawer_1" type="box" pos="5.0 4.65 0.66" size="0.45 0.49 0.25" material="lab_white" conaffinity="3" />
+    <geom name="lab_drawer_handle_1_0.53" type="box" pos="5.0 4.140000000000001 0.53" size="0.24 0.025 0.012" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_drawer_handle_1_0.7" type="box" pos="5.0 4.140000000000001 0.7" size="0.24 0.025 0.012" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_drawer_handle_1_0.85" type="box" pos="5.0 4.140000000000001 0.85" size="0.24 0.025 0.012" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_monitor_base_1" type="box" pos="6.0 4.65 1.075" size="0.28 0.2 0.025" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_monitor_stem_1" type="box" pos="6.0 4.7700000000000005 1.32" size="0.035 0.035 0.23" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_monitor_case_1" type="box" pos="6.0 4.79 1.63" size="0.55 0.055 0.34" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_monitor_display_1" type="plane" pos="6.0 4.729 1.63" size="0.515 0.3 0.001" material="lab_screen" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_keyboard_1" type="box" pos="6.0 4.6000000000000005 1.055" size="0.38 0.115 0.018" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_instrument_1" type="box" pos="4.7 4.7 1.24" size="0.27 0.3 0.2" material="lab_white" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_instrument_face_1" type="box" pos="4.7 4.3950000000000005 1.24" size="0.22 0.01 0.13" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_instrument_dial_1_0" type="cylinder" pos="4.5600000000000005 4.375 1.21" size="0.023 0.012" material="lab_teal" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_instrument_dial_1_1" type="cylinder" pos="4.69 4.375 1.21" size="0.023 0.012" material="lab_teal" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_instrument_dial_1_2" type="cylinder" pos="4.82 4.375 1.21" size="0.023 0.012" material="lab_teal" contype="0" conaffinity="0" group="2" quat=".70710678 .70710678 0 0" />
+    <geom name="lab_rack" type="box" pos="-7.1 1.4 1.15" size="0.42 0.58 1.15" material="lab_dark" conaffinity="3" />
+    <geom name="lab_rack_unit_0" type="box" pos="-6.66 1.4 0.25" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_0_0" type="box" pos="-6.635 1.07 0.25" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_0_1" type="box" pos="-6.635 1.1600000000000001 0.25" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_0_2" type="box" pos="-6.635 1.25 0.25" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_unit_1" type="box" pos="-6.66 1.4 0.47" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_1_0" type="box" pos="-6.635 1.07 0.47" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_1_1" type="box" pos="-6.635 1.1600000000000001 0.47" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_1_2" type="box" pos="-6.635 1.25 0.47" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_unit_2" type="box" pos="-6.66 1.4 0.69" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_2_0" type="box" pos="-6.635 1.07 0.69" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_2_1" type="box" pos="-6.635 1.1600000000000001 0.69" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_2_2" type="box" pos="-6.635 1.25 0.69" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_unit_3" type="box" pos="-6.66 1.4 0.91" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_3_0" type="box" pos="-6.635 1.07 0.91" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_3_1" type="box" pos="-6.635 1.1600000000000001 0.91" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_3_2" type="box" pos="-6.635 1.25 0.91" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_unit_4" type="box" pos="-6.66 1.4 1.13" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_4_0" type="box" pos="-6.635 1.07 1.13" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_4_1" type="box" pos="-6.635 1.1600000000000001 1.13" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_4_2" type="box" pos="-6.635 1.25 1.13" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_unit_5" type="box" pos="-6.66 1.4 1.35" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_5_0" type="box" pos="-6.635 1.07 1.35" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_5_1" type="box" pos="-6.635 1.1600000000000001 1.35" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_5_2" type="box" pos="-6.635 1.25 1.35" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_unit_6" type="box" pos="-6.66 1.4 1.57" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_6_0" type="box" pos="-6.635 1.07 1.57" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_6_1" type="box" pos="-6.635 1.1600000000000001 1.57" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_6_2" type="box" pos="-6.635 1.25 1.57" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_unit_7" type="box" pos="-6.66 1.4 1.79" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_7_0" type="box" pos="-6.635 1.07 1.79" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_7_1" type="box" pos="-6.635 1.1600000000000001 1.79" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_7_2" type="box" pos="-6.635 1.25 1.79" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_unit_8" type="box" pos="-6.66 1.4 2.01" size="0.014 0.49 0.085" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_8_0" type="box" pos="-6.635 1.07 2.01" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_8_1" type="box" pos="-6.635 1.1600000000000001 2.01" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_rack_led_8_2" type="box" pos="-6.635 1.25 2.01" size="0.006 0.015 0.012" material="lab_strip" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_storage" type="box" pos="-7.35 -2 1.15" size="0.45 1.25 1.15" material="lab_white" conaffinity="3" />
+    <geom name="lab_cabinet_door_-2.65" type="box" pos="-6.89 -2.65 1.2" size="0.012 0.59 1.03" material="lab_wall" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_cabinet_handle_-2.65" type="box" pos="-6.86 -3.01 1.2" size="0.02 0.025 0.17" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_cabinet_door_-1.35" type="box" pos="-6.89 -1.35 1.2" size="0.012 0.59 1.03" material="lab_wall" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_cabinet_handle_-1.35" type="box" pos="-6.86 -1.71 1.2" size="0.02 0.025 0.17" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pot_0" type="cylinder" pos="-6.9 -4.9 0.3" size="0.27 0.3" material="lab_white" conaffinity="3" />
+    <geom name="lab_soil_0" type="cylinder" pos="-6.9 -4.9 0.606" size="0.235 0.007" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_plant_0_0" type="ellipsoid" pos="-6.74 -4.9 0.95" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="0.0 0.25 0.0" />
+    <geom name="lab_plant_0_1" type="ellipsoid" pos="-6.800241631702603 -4.774906962805115 1.01" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="0.19545787061700745 0.1558724504646834 0.8975979010256552" />
+    <geom name="lab_plant_0_2" type="ellipsoid" pos="-6.935603349433011 -4.744011534050909 1.0699999999999998" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="0.2437319780454559 -0.055630233489078584 1.7951958020513104" />
+    <geom name="lab_plant_0_3" type="ellipsoid" pos="-7.044155018864387 -4.830578601741191 0.95" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="0.10847093477938956 -0.22524221697560476 2.6927937030769655" />
+    <geom name="lab_plant_0_4" type="ellipsoid" pos="-7.044155018864387 -4.96942139825881 1.01" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="-0.1084709347793895 -0.2252422169756048 3.5903916041026207" />
+    <geom name="lab_plant_0_5" type="ellipsoid" pos="-6.935603349433011 -5.055988465949092 1.0699999999999998" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="-0.2437319780454559 -0.05563023348907865 4.487989505128276" />
+    <geom name="lab_plant_0_6" type="ellipsoid" pos="-6.800241631702603 -5.025093037194885 0.95" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="-0.19545787061700748 0.15587245046468334 5.385587406153931" />
+    <geom name="lab_pot_1" type="cylinder" pos="6.7 5.1 0.3" size="0.27 0.3" material="lab_white" conaffinity="3" />
+    <geom name="lab_soil_1" type="cylinder" pos="6.7 5.1 0.606" size="0.235 0.007" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_plant_1_0" type="ellipsoid" pos="6.86 5.1 0.95" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="0.0 0.25 0.0" />
+    <geom name="lab_plant_1_1" type="ellipsoid" pos="6.799758368297398 5.225093037194885 1.01" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="0.19545787061700745 0.1558724504646834 0.8975979010256552" />
+    <geom name="lab_plant_1_2" type="ellipsoid" pos="6.66439665056699 5.255988465949091 1.0699999999999998" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="0.2437319780454559 -0.055630233489078584 1.7951958020513104" />
+    <geom name="lab_plant_1_3" type="ellipsoid" pos="6.555844981135613 5.169421398258809 0.95" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="0.10847093477938956 -0.22524221697560476 2.6927937030769655" />
+    <geom name="lab_plant_1_4" type="ellipsoid" pos="6.555844981135613 5.03057860174119 1.01" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="-0.1084709347793895 -0.2252422169756048 3.5903916041026207" />
+    <geom name="lab_plant_1_5" type="ellipsoid" pos="6.66439665056699 4.944011534050908 1.0699999999999998" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="-0.2437319780454559 -0.05563023348907865 4.487989505128276" />
+    <geom name="lab_plant_1_6" type="ellipsoid" pos="6.799758368297398 4.974906962805115 0.95" size="0.12 0.09 0.4" material="lab_leaf" contype="0" conaffinity="0" group="2" euler="-0.19545787061700748 0.15587245046468334 5.385587406153931" />
+    <geom name="lab_pendant_-4" type="box" pos="-4 1 4.5" size="1.3 0.16 0.065" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_diffuser_-4" type="box" pos="-4 1 4.427" size="1.24 0.13 0.012" material="lab_light" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_wire_-4_-0.9" type="box" pos="-4.9 1 5" size="0.008 0.008 0.44" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_wire_-4_0.9" type="box" pos="-3.1 1 5" size="0.008 0.008 0.44" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_0" type="box" pos="0 1 4.5" size="1.3 0.16 0.065" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_diffuser_0" type="box" pos="0 1 4.427" size="1.24 0.13 0.012" material="lab_light" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_wire_0_-0.9" type="box" pos="-0.9 1 5" size="0.008 0.008 0.44" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_wire_0_0.9" type="box" pos="0.9 1 5" size="0.008 0.008 0.44" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_4" type="box" pos="4 1 4.5" size="1.3 0.16 0.065" material="lab_metal" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_diffuser_4" type="box" pos="4 1 4.427" size="1.24 0.13 0.012" material="lab_light" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_wire_4_-0.9" type="box" pos="3.1 1 5" size="0.008 0.008 0.44" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <geom name="lab_pendant_wire_4_0.9" type="box" pos="4.9 1 5" size="0.008 0.008 0.44" material="lab_dark" contype="0" conaffinity="0" group="2" />
+    <body name="buddha" pos="1 0 .001">
+      <freejoint name="buddha_free" />
+      <inertial pos="0 0 .065" mass=".15" diaginertia=".0003 .0003 .0002" />
+      <geom name="buddha_base" type="cylinder" pos="0 0 .012" size=".068 .012" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" />
+      <geom name="buddha_legs" type="ellipsoid" pos="0 0 .035" size=".07 .052 .025" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" />
+      <geom name="buddha_body" type="ellipsoid" pos="0 0 .078" size=".039 .03 .049" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" />
+      <geom name="buddha_head" type="sphere" pos="0 0 .142" size=".027" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" />
+      <geom name="buddha_topknot" type="sphere" pos="0 0 .174" size=".008" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" />
+      <geom name="buddha_ear_-1" type="ellipsoid" pos="0 -0.028 .137" size=".009 .007 .018" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" />
+      <geom name="buddha_arm_-1" type="capsule" pos=".018 -0.04 .078" size=".012 .031" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" euler="-0.45 .4 0" />
+      <geom name="buddha_ear_1" type="ellipsoid" pos="0 0.028 .137" size=".009 .007 .018" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" />
+      <geom name="buddha_arm_1" type="capsule" pos=".018 0.04 .078" size=".012 .031" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" euler="0.45 .4 0" />
+      <geom name="buddha_hands" type="ellipsoid" pos=".035 0 .058" size=".016 .023 .011" rgba=".78 .018 .025 1" friction="1 .01 .001" condim="3" contype="2" conaffinity="2" />
+    </body>
+    <body name="task_support" mocap="true" pos="0 0 .793" />
+    <site name="buddha_drop" pos="5.7 4.22 1.04" type="cylinder" size=".16 .001" rgba=".1 .9 .55 .35" />
+  </worldbody>
+  <equality>
+    <weld name="task_base_support" body1="task_support" body2="pelvis" relpose="0 0 0 1 0 0 0" active="false" solref=".01 1" solimp=".99 .99 .001" />
+    <connect name="buddha_grasp" body1="left_wrist_yaw_link" body2="buddha" anchor="0 0 0" active="false" solref=".015 1" />
+  </equality>
+</mujoco>

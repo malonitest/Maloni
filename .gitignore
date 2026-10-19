@@ -1,0 +1,31 @@
+# Downloaded dependencies are pinned in dependencies/lock.json.
+/unitree_mujoco/
+/unitree_rl_lab/
+/unitree_ros/
+/unitree_sdk2/
+
+# Local environments, build products and runtime output.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+/build/
+/install/
+/log/
+*.log
+MUJOCO_LOG.TXT
+/g1_arm_controller
+/keyboard_walk/policy_runner
+.vscode/
+.idea/
+.DS_Store
+
+# Machine-specific configuration and credentials.
+.agents/
+.codex/
+.aws/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

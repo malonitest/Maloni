@@ -1,0 +1,38 @@
+{
+  "unitree_mujoco": {
+    "url": "https://github.com/unitreerobotics/unitree_mujoco.git",
+    "commit": "1eb6642e3f3fdfb7fb13a9794fd6a2dd93ea0e7d",
+    "overlays": {
+      "simulate/config.yaml": "48ec1809d74e9c90576ed5945312eaa0618ff41f1cf4a902bb52d4f1e1f47d94",
+      "unitree_robots/g1/g1_29dof_task.xml": "e518f3f2a522ca9d400b972c60fd547cf1584910439c2e7fd59e5bfa28c450dc",
+      "unitree_robots/g1/lab_assets/concrete.png": "13a2b8c9830c4e417b1c9ad277512f615228bfff8a3ed1986d673453e08488d8",
+      "unitree_robots/g1/lab_assets/lab_sign.png": "1e97709efe8b222b4c5715cf3aab3170a1ef770d5f2a8ee703bd1dc54b40497c",
+      "unitree_robots/g1/lab_assets/monitor.png": "dfba4dbab7369fc6fceaf30f0f804b1c11890bbc393786eaed35e43ec457e139",
+      "unitree_robots/g1/lab_assets/oak.png": "8cb0211101c92ba44bc010bcdcdebf0d49f6db1d5fe61b65934aaa86d7f7270d",
+      "unitree_robots/g1/scene_lab.xml": "5b77ae1d2cb713d1e6e66c2de95bc491d58180347b0068349a26640ed0365e6a",
+      "unitree_robots/g1/scene_lab_task.xml": "acdf97aeb22884101d8c99f7babf7057a0a46a0bc4c825831827f1038be6f166"
+    }
+  },
+  "unitree_rl_lab": {
+    "url": "https://github.com/unitreerobotics/unitree_rl_lab.git",
+    "commit": "4960b84732b0c2ec593dccbfe963fda1bcd7b1e3",
+    "overlays": {
+      "deploy/include/FSM/FSMState.h": "4730c17ea566cc3a0c467f11a9b7e8a3a5adc52fd88a26200406d06b7d1eadd1",
+      "deploy/include/isaaclab/devices/keyboard/keyboard.h": "d20ca894ff543eeaf97a774d5a49e175c31d499dde8e77647689d6c4d2cb0519",
+      "deploy/robots/g1_29dof/CMakeLists.txt": "6ebdd9e4c7e26e0fd0ae909e3e2e1f248de7c851c027162daca89c122a0982df",
+      "deploy/robots/g1_29dof/config/policy/velocity/v0/params/deploy.yaml": "43046adf06221395ed5420ca3ff4d4c18db59c7bdeb98750bf05be3dc59f7c39",
+      "deploy/robots/g1_29dof/main.cpp": "e0ef38dd5fa5f3863c27810d7a4f47dcefed869ae3ed8306c7bb0a51fa17b8ba",
+      "deploy/robots/g1_29dof/src/State_RLBase.cpp": "7fedf9391586c7545f8b521ac748e866ff03e538b42501164f8cdae303e45aaf"
+    }
+  },
+  "unitree_ros": {
+    "url": "https://github.com/unitreerobotics/unitree_ros.git",
+    "commit": "5994d4faef0a9cadd3287f8de0199a67eeb2a259",
+    "overlays": {}
+  },
+  "unitree_sdk2": {
+    "url": "https://github.com/unitreerobotics/unitree_sdk2.git",
+    "commit": "63096d0ac0c5d2dec9d6e0c22cd5233410ca2f36",
+    "overlays": {}
+  }
+}
