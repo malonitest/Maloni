@@ -1,3 +1,29 @@
+# MALONI Humanoid 120 a showroom
+
+Samostatný MALONI Humanoid 120 má vlastní diferenciální kolovou dynamiku, osm řízených os hlavy a paží, komunikaci v češtině/angličtině a napojení na návštěvu showroomu. Původní G1 zůstává dostupný.
+
+```bash
+git clone https://github.com/malonitest/Maloni.git humanoid_ws
+cd humanoid_ws
+python3 -m venv .venv
+.venv/bin/python -m pip install numpy==2.5.3
+bash start_showroom.sh --robot maloni120
+```
+
+MALONI nepotřebuje MuJoCo, ONNX ani nativní knihovnu pro G1. Hotové webové soubory a potřebné grafické podklady jsou součástí repozitáře. Node.js je potřeba pouze pro úpravy frontendu (`npm ci && npm run build` v `chery_showroom/web`).
+
+Pro G1 nejprve obnovte původní závislosti podle návodu níže. Nativní showroom G1 navíc potřebuje CMake, Eigen3 a Bullet Collision (Ubuntu: `sudo apt-get install cmake libeigen3-dev libbullet-dev`). Potom spusťte `bash start_showroom.sh --robot g1`; launcher sestaví jeho nativní knihovnu.
+
+- [Implementace, spuštění, výsledky testů a limity fyziky](MALONI_120_PHYSICS.md)
+- [Souhrn ověření](MALONI_120_VALIDATION.json)
+- [Návrh českého blogového článku](docs/blog/maloni-humanoid-120-showroom.md)
+- [Postup publikace blogu](MALONI_120_UPDATE.md)
+- [Původ a kontrolní součty grafických podkladů](MALONI_120_ASSET_PROVENANCE.json)
+
+Fyzika MALONI je rovinná s odhadnutými parametry. Neověřuje převrácení, schody ani schopnosti fyzického prototypu. Blog zůstává návrhem, zveřejnění na webu není součástí této aktualizace.
+
+---
+
 # Maloni — Unitree G1 v MuJoCo
 
 Simulace humanoidního robota Unitree G1: chůze řízená ONNX politikou,

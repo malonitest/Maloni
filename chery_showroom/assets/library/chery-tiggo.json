@@ -1,0 +1,417 @@
+{
+  "parts": [
+    {
+      "file": "chery-tiggo_0_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "chery-tiggo_0_chrome.png"
+      },
+      "faces": 1636,
+      "surface": "chrome"
+    },
+    {
+      "file": "chery-tiggo_0_glass.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.85,
+        "shininess": 0.95,
+        "metallic": 0.05,
+        "roughness": 0.08,
+        "texture": "chery-tiggo_0_glass.png"
+      },
+      "faces": 1543,
+      "surface": "glass"
+    },
+    {
+      "file": "chery-tiggo_0_paint.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.65,
+        "shininess": 0.72,
+        "metallic": 0.35,
+        "roughness": 0.36,
+        "texture": "chery-tiggo_0_paint.png"
+      },
+      "faces": 2660,
+      "surface": "paint"
+    },
+    {
+      "file": "chery-tiggo_0_rubber.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.08,
+        "shininess": 0.12,
+        "metallic": 0,
+        "roughness": 0.85,
+        "texture": "chery-tiggo_0_rubber.png"
+      },
+      "faces": 4961,
+      "surface": "rubber"
+    },
+    {
+      "file": "chery-tiggo_0_trim.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.3,
+        "shininess": 0.4,
+        "metallic": 0.1,
+        "roughness": 0.5,
+        "texture": "chery-tiggo_0_trim.png"
+      },
+      "faces": 32,
+      "surface": "trim"
+    },
+    {
+      "file": "chery-tiggo_1_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "chery-tiggo_1_chrome.png"
+      },
+      "faces": 24863,
+      "surface": "chrome"
+    },
+    {
+      "file": "chery-tiggo_1_glass.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.85,
+        "shininess": 0.95,
+        "metallic": 0.05,
+        "roughness": 0.08,
+        "texture": "chery-tiggo_1_glass.png"
+      },
+      "faces": 1116,
+      "surface": "glass"
+    },
+    {
+      "file": "chery-tiggo_1_paint.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.65,
+        "shininess": 0.72,
+        "metallic": 0.35,
+        "roughness": 0.36,
+        "texture": "chery-tiggo_1_paint.png"
+      },
+      "faces": 3700,
+      "surface": "paint"
+    },
+    {
+      "file": "chery-tiggo_1_rubber.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.08,
+        "shininess": 0.12,
+        "metallic": 0,
+        "roughness": 0.85,
+        "texture": "chery-tiggo_1_rubber.png"
+      },
+      "faces": 1086,
+      "surface": "rubber"
+    },
+    {
+      "file": "chery-tiggo_1_trim.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.3,
+        "shininess": 0.4,
+        "metallic": 0.1,
+        "roughness": 0.5,
+        "texture": "chery-tiggo_1_trim.png"
+      },
+      "faces": 650,
+      "surface": "trim"
+    },
+    {
+      "file": "chery-tiggo_2_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "chery-tiggo_2_chrome.png"
+      },
+      "faces": 21178,
+      "surface": "chrome"
+    },
+    {
+      "file": "chery-tiggo_2_glass.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.85,
+        "shininess": 0.95,
+        "metallic": 0.05,
+        "roughness": 0.08,
+        "texture": "chery-tiggo_2_glass.png"
+      },
+      "faces": 3133,
+      "surface": "glass"
+    },
+    {
+      "file": "chery-tiggo_2_paint.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.65,
+        "shininess": 0.72,
+        "metallic": 0.35,
+        "roughness": 0.36,
+        "texture": "chery-tiggo_2_paint.png"
+      },
+      "faces": 3354,
+      "surface": "paint"
+    },
+    {
+      "file": "chery-tiggo_2_rubber.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.08,
+        "shininess": 0.12,
+        "metallic": 0,
+        "roughness": 0.85,
+        "texture": "chery-tiggo_2_rubber.png"
+      },
+      "faces": 4603,
+      "surface": "rubber"
+    },
+    {
+      "file": "chery-tiggo_2_trim.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.3,
+        "shininess": 0.4,
+        "metallic": 0.1,
+        "roughness": 0.5,
+        "texture": "chery-tiggo_2_trim.png"
+      },
+      "faces": 1894,
+      "surface": "trim"
+    },
+    {
+      "file": "chery-tiggo_3_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "chery-tiggo_3_chrome.png"
+      },
+      "faces": 22834,
+      "surface": "chrome"
+    },
+    {
+      "file": "chery-tiggo_3_glass.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.85,
+        "shininess": 0.95,
+        "metallic": 0.05,
+        "roughness": 0.08,
+        "texture": "chery-tiggo_3_glass.png"
+      },
+      "faces": 1953,
+      "surface": "glass"
+    },
+    {
+      "file": "chery-tiggo_3_paint.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.65,
+        "shininess": 0.72,
+        "metallic": 0.35,
+        "roughness": 0.36,
+        "texture": "chery-tiggo_3_paint.png"
+      },
+      "faces": 1295,
+      "surface": "paint"
+    },
+    {
+      "file": "chery-tiggo_3_rubber.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.08,
+        "shininess": 0.12,
+        "metallic": 0,
+        "roughness": 0.85,
+        "texture": "chery-tiggo_3_rubber.png"
+      },
+      "faces": 4510,
+      "surface": "rubber"
+    },
+    {
+      "file": "chery-tiggo_3_trim.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.3,
+        "shininess": 0.4,
+        "metallic": 0.1,
+        "roughness": 0.5,
+        "texture": "chery-tiggo_3_trim.png"
+      },
+      "faces": 926,
+      "surface": "trim"
+    }
+  ],
+  "bounds": [
+    [
+      2.36,
+      1.0558015098737896,
+      0.0
+    ],
+    [
+      2.36,
+      -1.0558015098737896,
+      0.0
+    ],
+    [
+      2.36,
+      -1.0558015098737896,
+      1.7789166114885748
+    ],
+    [
+      2.36,
+      1.0558015098737896,
+      1.7789166114885748
+    ],
+    [
+      -2.3599999999999994,
+      1.0558015098737896,
+      0.0
+    ],
+    [
+      -2.3599999999999994,
+      -1.0558015098737896,
+      0.0
+    ],
+    [
+      -2.3599999999999994,
+      -1.0558015098737896,
+      1.7789166114885748
+    ],
+    [
+      -2.3599999999999994,
+      1.0558015098737896,
+      1.7789166114885748
+    ]
+  ],
+  "length": 4.72,
+  "asset": {
+    "generator": "glTF-Transform v4.4.2",
+    "version": "2.0",
+    "extras": {
+      "author": "Nazh Design ✔ (https://sketchfab.com/NazhDesign)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/2023-chery-tiggo-8-pro-b8d34fba89ca45918e851eaab3b5b679",
+      "title": "2023 Chery Tiggo 8 Pro"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "destination": "materials/limestone-wall-color.jpg",
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "3c5b8ec4d429d5765fc79400a29026a196c87e943083f61e1cfe9fd9fff68c9d",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/marble_01",
+    "author": "Rob Tuytel / Poly Haven; MALONI colour/atlas derivative",
+    "source_hashes": {
+      "materials/marble-roughness.jpg": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+      "materials/marble-normal.jpg": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+      "materials/marble-color.jpg": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48"
+    }
+  },
+  {
+    "destination": "materials/limestone-floor-color.jpg",
+    "size": [
+      2048,
+      2048
+    ],
+    "sha256": "ddd1edfae08033f64e76760029350570a2ce992c0769a5bf4de3d440f8955d60",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/marble_01",
+    "author": "Rob Tuytel / Poly Haven; MALONI colour/atlas derivative",
+    "source_hashes": {
+      "materials/marble-roughness.jpg": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+      "materials/marble-normal.jpg": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+      "materials/marble-color.jpg": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48"
+    }
+  },
+  {
+    "destination": "materials/limestone-wall-normal.jpg",
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "80e0c953c4f07eb0ebfacb630322e87537bcdd3bff00c5198f016dce5a5b405c",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/marble_01",
+    "author": "Rob Tuytel / Poly Haven; MALONI colour/atlas derivative",
+    "source_hashes": {
+      "materials/marble-roughness.jpg": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+      "materials/marble-normal.jpg": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+      "materials/marble-color.jpg": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48"
+    }
+  },
+  {
+    "destination": "materials/limestone-floor-normal.jpg",
+    "size": [
+      2048,
+      2048
+    ],
+    "sha256": "bf284b3ef7092c50d6ea52a18e3f38337ce686190db7bccbb874df71582c61a4",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/marble_01",
+    "author": "Rob Tuytel / Poly Haven; MALONI colour/atlas derivative",
+    "source_hashes": {
+      "materials/marble-roughness.jpg": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+      "materials/marble-normal.jpg": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+      "materials/marble-color.jpg": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48"
+    }
+  },
+  {
+    "destination": "materials/limestone-wall-roughness.jpg",
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "63222687809ef80a34ffe365a45d7a27b2ca04157fba1882a1cf50a476bbfd74",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/marble_01",
+    "author": "Rob Tuytel / Poly Haven; MALONI colour/atlas derivative",
+    "source_hashes": {
+      "materials/marble-roughness.jpg": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+      "materials/marble-normal.jpg": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+      "materials/marble-color.jpg": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48"
+    }
+  },
+  {
+    "destination": "materials/limestone-floor-roughness.jpg",
+    "size": [
+      2048,
+      2048
+    ],
+    "sha256": "ce3d1cfb7b453764df6bdae99944f0dd0abe8980581a991621b9d850aa7baec2",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/marble_01",
+    "author": "Rob Tuytel / Poly Haven; MALONI colour/atlas derivative",
+    "source_hashes": {
+      "materials/marble-roughness.jpg": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+      "materials/marble-normal.jpg": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+      "materials/marble-color.jpg": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "file": "models/modern_arm_chair_01.glb",
+    "sha256": "62bbc1e143fb84b0dd92af836837b321185e9297af9c3a93e2de78cd91091511",
+    "source": "https://polyhaven.com/a/modern_arm_chair_01",
+    "author": "Vibrant Nordic",
+    "license": "CC0-1.0",
+    "changes": "Embedded original buffers and JPEG maps into GLB; no geometry or texture resampling."
+  },
+  {
+    "file": "models/potted_plant_02.glb",
+    "sha256": "c82be4788003464353c56180fcaa0117b22a8212e8fac6e046a4d9d8897088dc",
+    "source": "https://polyhaven.com/a/potted_plant_02",
+    "author": "Rico Cilliers",
+    "license": "CC0-1.0",
+    "changes": "Embedded original buffers and JPEG maps into GLB; no geometry or texture resampling."
+  }
+]

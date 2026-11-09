@@ -1,0 +1,70 @@
+{
+  "duration": 55,
+  "vehicle": "tiggo8",
+  "disclosure": "AI-generated English voices · English subtitles · Simulated customer trigger",
+  "cues": [
+    {
+      "id": "welcome",
+      "start": 6,
+      "end": 10.5,
+      "speaker": "robot",
+      "voice": "marin",
+      "cs": "Dobrý den, vítejte v MALONI Robotics. Představím vám CHERY Tiggo osm Pro.",
+      "en": "Welcome to MALONI Robotics. Let me introduce the CHERY Tiggo 8 Pro."
+    },
+    {
+      "id": "customer_reply",
+      "start": 10.5,
+      "end": 12.5,
+      "speaker": "customer",
+      "voice": "cedar",
+      "cs": "Dobrý den, rád se podívám.",
+      "en": "Hello. I'd love to take a look."
+    },
+    {
+      "id": "follow",
+      "start": 12.5,
+      "end": 15,
+      "speaker": "robot",
+      "voice": "marin",
+      "cs": "Pojďte prosím se mnou.",
+      "en": "Please follow me."
+    },
+    {
+      "id": "presentation_identity",
+      "start": 34,
+      "end": 41,
+      "speaker": "robot",
+      "voice": "marin",
+      "cs": "Toto je referenční model CHERY Tiggo osm Pro z roku dva tisíce dvacet tři.",
+      "en": "This is a reference 3D model of the 2023 CHERY Tiggo 8 Pro."
+    },
+    {
+      "id": "presentation_design",
+      "start": 41,
+      "end": 46,
+      "speaker": "robot",
+      "voice": "marin",
+      "cs": "Prohlédněte si jeho modrozelenou karoserii, přední masku a světlomety.",
+      "en": "Take a look at its teal bodywork, front grille and headlights."
+    },
+    {
+      "id": "presentation_unknowns",
+      "start": 46,
+      "end": 50.1,
+      "speaker": "robot",
+      "voice": "marin",
+      "cs": "Konkrétní výbavu a aktuální cenu vám potvrdí prodejce.",
+      "en": "A salesperson can confirm the exact specification and current price."
+    },
+    {
+      "id": "farewell",
+      "start": 50.1,
+      "end": 55,
+      "speaker": "robot",
+      "voice": "marin",
+      "cs": "Rád vám připravím otázky pro prodejce. Děkuji za návštěvu.",
+      "en": "I can help prepare your questions for a salesperson. Thank you for visiting."
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "market": "CZ",
+  "visual_license": "Imported CC BY 4.0 models; authors, source URLs and conversion changes are documented in MODEL_CREDITS.md and assets/library/provenance.json.",
+  "cars": [
+    {
+      "id": "tiggo4",
+      "name": "BMW X1 2013",
+      "description": "Reference 3D model for an independent robotics demonstration.",
+      "powertrains": [],
+      "price": null,
+      "source": "https://sketchfab.com/3d-models/bmw-x1-2013-302b32456b054dbdb5b72a08aca2bb80",
+      "visual": "Reference model; no claims about current specifications, sales availability or manufacturer partnerships.",
+      "display_model": "BMW X1 2013",
+      "visual_note": "Reference model; no claims about current specifications, sales availability or manufacturer partnerships.",
+      "source_scope": "3D reference model identity, not product specifications",
+      "verified_facts": [],
+      "aliases": [
+        "BMW",
+        "BMW X1",
+        "X1"
+      ],
+      "appearance": {
+        "color": "red",
+        "description": "The displayed model has red bodywork and dark windows.",
+        "source": "chery_showroom/assets/library/provenance.json; local scene materials",
+        "reviewed": "2026-10-23"
+      },
+      "model_year": 2013,
+      "reference_facts": []
+    },
+    {
+      "id": "tiggo7",
+      "name": "Volvo XC60 Recharge 2023",
+      "description": "Reference 3D model for an independent robotics demonstration.",
+      "powertrains": [],
+      "price": null,
+      "source": "https://sketchfab.com/3d-models/2023-volvo-xc60-recharge-c35ef02fd38b48adadc17f117a4a518c",
+      "visual": "Reference model; no claims about current specifications, sales availability or manufacturer partnerships.",
+      "display_model": "Volvo XC60 Recharge 2023",
+      "visual_note": "Reference model; no claims about current specifications, sales availability or manufacturer partnerships.",
+      "source_scope": "3D reference model identity, not product specifications",
+      "verified_facts": [],
+      "aliases": [
+        "Volvo",
+        "Volvo XC60",
+        "XC60"
+      ],
+      "appearance": {
+        "color": "silver",
+        "description": "The displayed model has silver bodywork and dark windows.",
+        "source": "chery_showroom/assets/library/provenance.json; local scene materials",
+        "reviewed": "2026-10-23"
+      },
+      "model_year": 2023,
+      "reference_facts": [
+        {
+          "model": "Volvo XC60 Recharge 2023",
+          "model_year": 2023,
+          "topic": "dimensions",
+          "text": "Overall length is 4708 mm; wheelbase is 2865 mm.",
+          "market": "NZ",
+          "source": "https://www.volvocars.com/nz/support/car/xc60-recharge-plug-in-hybrid/22w22/article/47d2c97fd33effd3c0a8cc3718c999b7-cf578f17ce837790c0a8b04a1abf9aaa-8664b2fa77a7e089c0a8296870d1a409/47d2c97fd33effd3c0a8cc3718c999b7-350655bc554de2a7c0a8b097561c9a50-8664b2fa77a7e089c0a8296870d1a409/0ed816eed33d98cac0a8cc377bc12bc7-e6a7973b2bf222b2c0a8b09757c97ec8-8664b2fa77a7e089c0a8296870d1a409/",
+          "verified": "2026-11-06",
+          "scope": "Volvo manufacturer support manual for XC60 Recharge Plug-in Hybrid 2023"
+        }
+      ]
+    },
+    {
+      "id": "tiggo8",
+      "name": "CHERY Tiggo 8 Pro 2023",
+      "description": "Reference 3D model for an independent robotics demonstration.",
+      "powertrains": [],
+      "price": null,
+      "source": "https://sketchfab.com/3d-models/2023-chery-tiggo-8-pro-b8d34fba89ca45918e851eaab3b5b679",
+      "visual": "Reference model; no claims about current specifications, sales availability or manufacturer partnerships.",
+      "display_model": "CHERY Tiggo 8 Pro 2023",
+      "visual_note": "Reference model; no claims about current specifications, sales availability or manufacturer partnerships.",
+      "source_scope": "3D reference model identity, not product specifications",
+      "verified_facts": [],
+      "aliases": [
+        "CHERY",
+        "Tiggo 8",
+        "Tiggo 8 Pro",
+        "CHERY Tiggo 8 Pro"
+      ],
+      "appearance": {
+        "color": "teal",
+        "description": "The displayed model has teal bodywork and dark windows.",
+        "source": "chery_showroom/assets/library/provenance.json; local scene materials",
+        "reviewed": "2026-10-23"
+      },
+      "model_year": 2023,
+      "reference_facts": [
+        {
+          "model": "CHERY Tiggo 8 Pro 2023",
+          "model_year": 2023,
+          "topic": "dimensions",
+          "text": "Overall length is 4722 mm and width is 1860 mm.",
+          "market": "MY",
+          "source": "https://chery-malaysia.com/models/tiggo-8-pro/",
+          "verified": "2026-11-06",
+          "scope": "Malaysian Tiggo 8 Pro page carrying the 6 July 2023 specification and offer"
+        },
+        {
+          "model": "CHERY Tiggo 8 Pro 2023",
+          "model_year": 2023,
+          "topic": "seats",
+          "text": "The Malaysian reference version has seven seats.",
+          "market": "MY",
+          "source": "https://chery-malaysia.com/models/tiggo-8-pro/",
+          "verified": "2026-11-06",
+          "scope": "Malaysian Tiggo 8 Pro page carrying the 6 July 2023 specification and offer"
+        }
+      ]
+    }
+  ],
+  "purpose": "Independent MALONI Robotics demonstration; no manufacturer affiliation or dealership representation.",
+  "reviewed": "2026-11-06",
+  "data_status": "Visual references with individually sourced, market-scoped technical reference facts. No verified Czech commercial pricing or availability."
+}

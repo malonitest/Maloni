@@ -1,0 +1,229 @@
+{
+  "scope": "Showroom runtime model, environment textures, licensed demo vehicle assets and user-selected robot concept diagrams only; no customer records, credentials or local environment files.",
+  "files": [
+    {
+      "path": "chery_showroom/web/public/daylight.hdr",
+      "sha256": "f907cb550c920d3f6c2305761919066f77c82fd79dd690881660c82fcc9aa1c3",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/urban_courtyard"
+    },
+    {
+      "path": "chery_showroom/web/public/studio.hdr",
+      "sha256": "e7cfda5f4e98e623db12b8bfd0184e048488e4855d9c83e2751fb44a32e80c45",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0",
+      "source": "https://polyhaven.com/a/studio_small_09"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/walnut-normal.jpg",
+      "sha256": "d90b68a3dcfe48979195a32d8b4746a09d808d8170a34ab9f13671100088490d",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/european_walnut_veneer_05"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/limestone-floor-roughness.jpg",
+      "sha256": "ce3d1cfb7b453764df6bdae99944f0dd0abe8980581a991621b9d850aa7baec2",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/metal-roughness.png",
+      "sha256": "afb313cb5677097f488d5596412b4df096743d035e35c4f54d1bef09695d0888",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/stone-normal.png",
+      "sha256": "8a079cc56d85020e75fc8e291ff65204cb632ff87a313bef6240f96bd5ae8705",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/wood-color.png",
+      "sha256": "f309e4e152d8f7b8df0f78898771976da7833bfe3a4f8dc7954537a040c94f52",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/limestone-wall-normal.jpg",
+      "sha256": "80e0c953c4f07eb0ebfacb630322e87537bcdd3bff00c5198f016dce5a5b405c",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/stone-color.png",
+      "sha256": "d80730313ae8bf67c8afbc199d7dac0d8ce05fe26775261295d07ba234e27e58",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/limestone-wall-color.jpg",
+      "sha256": "3c5b8ec4d429d5765fc79400a29026a196c87e943083f61e1cfe9fd9fff68c9d",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/stone-roughness.png",
+      "sha256": "1c1760f8990af72b49adfb6a3f36f6b22c1b00be42add2842c939deafebf2dd2",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/limestone-floor-normal.jpg",
+      "sha256": "bf284b3ef7092c50d6ea52a18e3f38337ce686190db7bccbb874df71582c61a4",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/marble-color.jpg",
+      "sha256": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/walnut-roughness.jpg",
+      "sha256": "bee09710a4cbc666c64b72c4afd982c5d6932b324ef4a2ae18f24e9a84aae793",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/european_walnut_veneer_05"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/walnut-color.jpg",
+      "sha256": "8fcab5a90ba257e8151526c5e0beb31a3b2cf253f873cd2219c857534d3683af",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/european_walnut_veneer_05"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/wood-normal.png",
+      "sha256": "2ee47541021ab680969d5e9df5aef56977cd599a62daec7c6bc14bd48e1ddf35",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/marble-roughness.jpg",
+      "sha256": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/metal-color.png",
+      "sha256": "dfcc0a4747d2e9deb4c126ee8db089a10cd68b124bc917b980ae3d67a9a85037",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/metal-normal.png",
+      "sha256": "eb1edae450c741bf5195b931b3e64779340f6017052969352254d29b70f3ea0d",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/marble-normal.jpg",
+      "sha256": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/wood-roughness.png",
+      "sha256": "0c2739adf71dc5649d65a4abf0c5dc6c2dafedf74bfb5c6725d7592474aeebf3",
+      "verification": "project-generated surface PBR map",
+      "license": "Original procedural project assets",
+      "source": "chery_showroom/web/prepare_assets.py (fixed random seeds 41/42/43); public/CREDITS.txt"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/limestone-wall-roughness.jpg",
+      "sha256": "63222687809ef80a34ffe365a45d7a27b2ca04157fba1882a1cf50a476bbfd74",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/materials/limestone-floor-color.jpg",
+      "sha256": "ddd1edfae08033f64e76760029350570a2ce992c0769a5bf4de3d440f8955d60",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/marble_01"
+    },
+    {
+      "path": "chery_showroom/web/public/models/potted_plant_02.glb",
+      "sha256": "c82be4788003464353c56180fcaa0117b22a8212e8fac6e046a4d9d8897088dc",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/potted_plant_02"
+    },
+    {
+      "path": "chery_showroom/web/public/models/modern_arm_chair_01.glb",
+      "sha256": "62bbc1e143fb84b0dd92af836837b321185e9297af9c3a93e2de78cd91091511",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/modern_arm_chair_01"
+    },
+    {
+      "path": "chery_showroom/web/public/models/receptionist.glb",
+      "sha256": "b48e8f9478905f96dbea92ae3ccf5d04cbc7909bdd42555ec97b0fd124ac677f",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "CC0-1.0",
+      "source": "https://www.innerscene.com/tools/library/3d-parts/mei-3d-person-receptionist-d36b82b9"
+    },
+    {
+      "path": "chery_showroom/web/public/models/g1-reception.glb",
+      "sha256": "668d5eb4460f32b1769120235e1dc8d475c744c2c21f7165d5c5a4fe50f48d5e",
+      "verification": "matches recorded public-asset/derivative checksum",
+      "license": "BSD-3-Clause",
+      "source": "Local unitree_mujoco/unitree_robots/g1"
+    },
+    {
+      "path": "chery_showroom/assets/library/chery-tiggo.glb",
+      "sha256": "7fd9cc472f244f2e907223d6e4ea66d2f7a660fe188e8ab9225bb9f3bf3f94d4",
+      "verification": "matches pinned public vehicle GLB checksum",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://raw.githubusercontent.com/pedrosoandre/carros/2d18dfd9db96bbf0d9cffa949deaf7f571388cbf/assets/chery-tiggo.glb"
+    },
+    {
+      "path": "chery_showroom/assets/library/bmw-x1.glb",
+      "sha256": "e8285463531538d9ae68816f6bf657fb65b64847f2507aa226b676085345da64",
+      "verification": "matches pinned public vehicle GLB checksum",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://raw.githubusercontent.com/pedrosoandre/carros/2d18dfd9db96bbf0d9cffa949deaf7f571388cbf/assets/bmw-x1.glb"
+    },
+    {
+      "path": "chery_showroom/assets/library/volvo-xc60.glb",
+      "sha256": "8897b5da6e184b5dba61a446157e7bb9d51a14e02aba8098443005af09881463",
+      "verification": "matches pinned public vehicle GLB checksum",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://raw.githubusercontent.com/pedrosoandre/carros/2d18dfd9db96bbf0d9cffa949deaf7f571388cbf/assets/volvo-xc60.glb"
+    },
+    {
+      "path": "docs/references/maloni120-internal-concept.png",
+      "sha256": "7c7a5c0efa4b3b7a003ec71b15a90f613f54386267cb15f903f3783ddc393e0f",
+      "verification": "user-selected project concept diagram",
+      "license": "User supplied MALONI concept illustration",
+      "source": "Two concept PNG files explicitly supplied by user for robot update and GitHub update"
+    },
+    {
+      "path": "docs/references/maloni120-helios-revision02.png",
+      "sha256": "4a903bb04d461974cef89fc0e99866040f31062a17e328129f64b0b149f5f2fd",
+      "verification": "user-selected project concept diagram",
+      "license": "User supplied MALONI concept illustration",
+      "source": "Two concept PNG files explicitly supplied by user for robot update and GitHub update"
+    }
+  ]
+}

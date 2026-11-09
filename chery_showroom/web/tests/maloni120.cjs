@@ -1,0 +1,10 @@
+const fs=require('node:fs'),path=require('node:path'),Module=require('node:module'),esbuild=require('esbuild'),assert=require('node:assert/strict');
+global.document={createElement:()=>({width:0,height:0,getContext:()=>({fillRect(){},fillText(){}})})};
+const code=esbuild.buildSync({stdin:{contents:"export {createMaloni120} from './src/maloni120'; export * as T from 'three';",resolveDir:path.resolve(__dirname,'..'),loader:'ts'},bundle:true,platform:'node',format:'cjs',write:false}).outputFiles[0].text;
+const m=new Module(__filename,module);m._compile(code,__filename);const {T,createMaloni120}=m.exports;
+const {robot,update}=createMaloni120();
+let bounds=new T.Box3().setFromObject(robot);assert(Math.abs(bounds.max.z-1.2)<1e-6);assert(bounds.min.z>=-1e-6);assert(bounds.max.y-bounds.min.y<.7);
+assert(robot.getObjectByName('face-display'));assert(!robot.getObjectByName('pelvis'));
+update(1,2,0,0);update(1.1,2,0,.1);assert(Math.abs(robot.getObjectByName('left-drive-wheel').rotation.y)>.1);
+update(0,0,1,0);assert.equal(robot.getObjectByName('left-drive-wheel').rotation.y,0);assert.equal(robot.position.z,0);
+assert.equal(robot.userData.stage,'concept');console.log('PASS: 1.2m height, floor contact, wheeled geometry, planar movement and reset');

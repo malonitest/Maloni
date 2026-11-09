@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-09",
+  "physics_tests": 8,
+  "g1_dialogue_http_regression_tests": 20,
+  "browser": {
+    "passed": true,
+    "errors": [],
+    "checks": [
+      "gallery",
+      "maloni120-backend",
+      "identity-cs",
+      "greeting",
+      "emergency-stop",
+      "reset"
+    ]
+  },
+  "headless": {
+    "maloni120-tour": {
+      "success": true,
+      "backend": "maloni120-planar",
+      "sim_time": 63.340000000031445,
+      "phase": "arrived"
+    },
+    "maloni120-arrival": {
+      "success": true,
+      "backend": "maloni120-planar",
+      "sim_time": 55.02000000002128,
+      "phase": "stopped"
+    },
+    "g1-preserved": {
+      "success": true,
+      "backend": "maloni-native",
+      "sim_time": 0.12000000000000009,
+      "phase": "greeting"
+    }
+  }
+}

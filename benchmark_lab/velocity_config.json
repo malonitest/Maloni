@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "source_sha256": "826b7af7da23d8a38f8b417c2477986cbf15ebbb013f73283384a87460a1576e",
+  "source_hashes": {
+    "scene": "e254f11acce2ec6f6efa5bf9b15e288bbd0ca29aeeabb1e1d0fea92f65436bbf",
+    "model": "dbf2981ce93a51b54071410ec892584d878aa8d48441b1cd63cda476ae420eb8",
+    "policy": "610c27e463a8f666aa50a06346678c00b4df3859f10b54bcc1f817c28251406f",
+    "policy_config": "5bb0a14b1707870f426553e5f2fa41efb10a9bdd452ed40aef9d05cb8b0c4dd1",
+    "controller": "6be964501ad31a7e7ee42649fd3280ff742ad2c44fd2c093861bd172bce7dc0e",
+    "policy_runner": "a24e0edd25bc499db951ce57fbaa9b99bf53e303dfcd6f4d8ac17e161e7c65eb",
+    "measurement": "312bbc924f5fb87b3325b989fb28855257aa44ccb4b9cea0af5d707a26187086",
+    "metrics": "e5fb6cbf89771c180c33d11ca7f4317dd012a0879da7d75ed8217178e0984212",
+    "scenarios": "55144cace98ba213517e7322df8150618c251f89983572e22b23719a6ffd206d",
+    "velocity_controller": "15cf6dcd68b0052b9ff27c8d8054a61ba67810f21d19a031dfd5a96a90539348",
+    "calibration": "ef24b2a80b79841a794dfdb548fc0690e42963f88504f163705f17966b1ce6db"
+  },
+  "experimental_yaw": true,
+  "lower": [
+    -0.5,
+    -0.3,
+    -0.8
+  ],
+  "upper": [
+    1,
+    0.3,
+    0.6
+  ],
+  "filter_s": 0.15,
+  "kp": [
+    0.15,
+    0.12,
+    0.25
+  ],
+  "ki": [
+    0.08,
+    0.04,
+    0.06
+  ],
+  "integral_limit": [
+    0.08,
+    0.04,
+    0.08
+  ],
+  "slew_per_s": [
+    5,
+    3,
+    8
+  ],
+  "axes": [
+    {
+      "positive": {
+        "speed": [
+          0.032253491559735004,
+          0.21803618040207373,
+          0.27551280361853686,
+          0.48151788394144696,
+          0.7330956153051914,
+          0.9513692809492738
+        ],
+        "input": [
+          0.225,
+          0.25,
+          0.3,
+          0.5,
+          0.75,
+          1
+        ],
+        "measured_speed_range": [
+          0.032253491559735004,
+          0.9513692809492738
+        ]
+      },
+      "negative": {
+        "speed": [
+          0.07216292013523451,
+          0.09765265747741894,
+          0.12630260660065482,
+          0.152879651218425,
+          0.21999418729453696,
+          0.4251523195754928
+        ],
+        "input": [
+          0.175,
+          0.2,
+          0.225,
+          0.25,
+          0.3,
+          0.5
+        ],
+        "measured_speed_range": [
+          0.07216292013523451,
+          0.4251523195754928
+        ]
+      }
+    },
+    {
+      "positive": {
+        "speed": [
+          0.2137305320248565,
+          0.24125877743447927
+        ],
+        "input": [
+          0.275,
+          0.3
+        ],
+        "measured_speed_range": [
+          0.2137305320248565,
+          0.24125877743447927
+        ]
+      },
+      "negative": {
+        "speed": [
+          0.04494245658156948,
+          0.06379808129825888,
+          0.07753566785771039,
+          0.08103772375475411,
+          0.2227517675935471,
+          0.25439967641554195
+        ],
+        "input": [
+          0.255,
+          0.26,
+          0.265,
+          0.27,
+          0.275,
+          0.3
+        ],
+        "measured_speed_range": [
+          0.04494245658156948,
+          0.25439967641554195
+        ]
+      }
+    },
+    {
+      "positive": {
+        "speed": [
+          0.046602227569123265,
+          0.05605148943459879,
+          0.10698347783590348,
+          0.18072448839091804,
+          0.20504331772902404
+        ],
+        "input": [
+          0.3,
+          0.5,
+          0.525,
+          0.55,
+          0.575
+        ],
+        "measured_speed_range": [
+          0.046602227569123265,
+          0.20504331772902404
+        ]
+      },
+      "negative": {
+        "speed": [
+          0.028611527795974256,
+          0.06037432852367202,
+          0.07026199045510911,
+          0.09108013111739413,
+          0.11088099011049422
+        ],
+        "input": [
+          0.4,
+          0.5,
+          0.6,
+          0.7,
+          0.8
+        ],
+        "measured_speed_range": [
+          0.028611527795974256,
+          0.11088099011049422
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Speeds below motion onset are experimental; no continuous tracking guarantee.",
+    "Negative yaw above the measured maximum is unsupported; commands saturate.",
+    "Combined-axis motion requires separate validation."
+  ]
+}

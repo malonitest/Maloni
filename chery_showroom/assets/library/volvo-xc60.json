@@ -1,0 +1,273 @@
+{
+  "parts": [
+    {
+      "file": "volvo-xc60_0_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "volvo-xc60_0_chrome.png"
+      },
+      "faces": 14475,
+      "surface": "chrome"
+    },
+    {
+      "file": "volvo-xc60_1_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "volvo-xc60_1_chrome.png"
+      },
+      "faces": 42367,
+      "surface": "chrome"
+    },
+    {
+      "file": "volvo-xc60_2_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "volvo-xc60_2_chrome.png"
+      },
+      "faces": 28129,
+      "surface": "chrome"
+    },
+    {
+      "file": "volvo-xc60_2_rubber.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.08,
+        "shininess": 0.12,
+        "metallic": 0,
+        "roughness": 0.85,
+        "texture": "volvo-xc60_2_rubber.png"
+      },
+      "faces": 11826,
+      "surface": "rubber"
+    },
+    {
+      "file": "volvo-xc60_3_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "volvo-xc60_3_chrome.png"
+      },
+      "faces": 20428,
+      "surface": "chrome"
+    },
+    {
+      "file": "volvo-xc60_3_glass.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.85,
+        "shininess": 0.95,
+        "metallic": 0.05,
+        "roughness": 0.08,
+        "texture": "volvo-xc60_3_glass.png"
+      },
+      "faces": 2848,
+      "surface": "glass"
+    },
+    {
+      "file": "volvo-xc60_3_rubber.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.08,
+        "shininess": 0.12,
+        "metallic": 0,
+        "roughness": 0.85,
+        "texture": "volvo-xc60_3_rubber.png"
+      },
+      "faces": 18274,
+      "surface": "rubber"
+    },
+    {
+      "file": "volvo-xc60_4_chrome.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.72,
+        "shininess": 0.8,
+        "metallic": 0.95,
+        "roughness": 0.2,
+        "texture": "volvo-xc60_4_chrome.png"
+      },
+      "faces": 16319,
+      "surface": "chrome"
+    },
+    {
+      "file": "volvo-xc60_4_glass.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.85,
+        "shininess": 0.95,
+        "metallic": 0.05,
+        "roughness": 0.08,
+        "texture": "volvo-xc60_4_glass.png"
+      },
+      "faces": 5366,
+      "surface": "glass"
+    },
+    {
+      "file": "volvo-xc60_4_paint.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.65,
+        "shininess": 0.72,
+        "metallic": 0.35,
+        "roughness": 0.36,
+        "texture": "volvo-xc60_4_paint.png"
+      },
+      "faces": 14633,
+      "surface": "paint"
+    },
+    {
+      "file": "volvo-xc60_4_rubber.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.08,
+        "shininess": 0.12,
+        "metallic": 0,
+        "roughness": 0.85,
+        "texture": "volvo-xc60_4_rubber.png"
+      },
+      "faces": 1086,
+      "surface": "rubber"
+    },
+    {
+      "file": "volvo-xc60_4_trim.obj",
+      "material": {
+        "rgba": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "specular": 0.3,
+        "shininess": 0.4,
+        "metallic": 0.1,
+        "roughness": 0.5,
+        "texture": "volvo-xc60_4_trim.png"
+      },
+      "faces": 2281,
+      "surface": "trim"
+    }
+  ],
+  "bounds": [
+    [
+      -2.345,
+      1.0510763601756383,
+      0.0
+    ],
+    [
+      2.345,
+      1.0510763601756383,
+      0.0
+    ],
+    [
+      2.345,
+      1.0510763601756383,
+      1.7050676000505482
+    ],
+    [
+      -2.345,
+      1.0510763601756383,
+      1.7050676000505482
+    ],
+    [
+      -2.345,
+      -1.0510763601756385,
+      0.0
+    ],
+    [
+      2.345,
+      -1.0510763601756385,
+      0.0
+    ],
+    [
+      2.345,
+      -1.0510763601756385,
+      1.7050676000505482
+    ],
+    [
+      -2.345,
+      -1.0510763601756385,
+      1.7050676000505482
+    ]
+  ],
+  "length": 4.69,
+  "asset": {
+    "generator": "glTF-Transform v4.4.2",
+    "version": "2.0",
+    "extras": {
+      "author": "Nazh Design ✔ (https://sketchfab.com/NazhDesign)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/2023-volvo-xc60-recharge-c35ef02fd38b48adadc17f117a4a518c",
+      "title": "2023 Volvo XC60 Recharge"
+    }
+  }
+}

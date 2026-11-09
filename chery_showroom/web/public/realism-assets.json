@@ -1,0 +1,94 @@
+[
+  {
+    "file": "marble_01-roughness.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_rough_2k.jpg",
+    "md5": "c4cf0375d84277c6020bf230823efdcc",
+    "destination": "materials/marble-roughness.jpg",
+    "source": "https://polyhaven.com/a/marble_01",
+    "license": "CC0-1.0",
+    "author": "Rob Tuytel / Poly Haven",
+    "source_sha256": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+    "output_sha256": "1b970e033856c93ee7390d947da5340e101b489fc8c1463354ea9e6655ce039a",
+    "changes": "Original bytes"
+  },
+  {
+    "file": "marble_01-normal.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_nor_gl_2k.jpg",
+    "md5": "f25efb0b61ec7ac183b3b0f4d032ed17",
+    "destination": "materials/marble-normal.jpg",
+    "source": "https://polyhaven.com/a/marble_01",
+    "license": "CC0-1.0",
+    "author": "Rob Tuytel / Poly Haven",
+    "source_sha256": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+    "output_sha256": "d5e17ccb2913adbf28fcb781fddf0aa711259ddea6c1c918442f9a3589aa4660",
+    "changes": "Original bytes"
+  },
+  {
+    "file": "marble_01-color.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_diff_2k.jpg",
+    "md5": "4eeefea16242cecb3b429ac0c8f88740",
+    "destination": "materials/marble-color.jpg",
+    "source": "https://polyhaven.com/a/marble_01",
+    "license": "CC0-1.0",
+    "author": "Rob Tuytel / Poly Haven",
+    "source_sha256": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48",
+    "output_sha256": "d403786171716f86718bdd67eba923d4fb6125c0636bacef0e6a21dd5d623a48",
+    "changes": "Original bytes"
+  },
+  {
+    "file": "european_walnut_veneer_05-color.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/european_walnut_veneer_05/european_walnut_veneer_05_diff_1k.jpg",
+    "md5": "4e3684dd122be2618b6d10a1a4002349",
+    "destination": "materials/walnut-color.jpg",
+    "source": "https://polyhaven.com/a/european_walnut_veneer_05",
+    "license": "CC0-1.0",
+    "source_sha256": "8fcab5a90ba257e8151526c5e0beb31a3b2cf253f873cd2219c857534d3683af",
+    "output_sha256": "8fcab5a90ba257e8151526c5e0beb31a3b2cf253f873cd2219c857534d3683af",
+    "changes": "Original bytes"
+  },
+  {
+    "file": "european_walnut_veneer_05-normal.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/european_walnut_veneer_05/european_walnut_veneer_05_nor_gl_1k.jpg",
+    "md5": "2f583cefdd6d59c53fef7ad3e4ec02af",
+    "destination": "materials/walnut-normal.jpg",
+    "source": "https://polyhaven.com/a/european_walnut_veneer_05",
+    "license": "CC0-1.0",
+    "source_sha256": "d90b68a3dcfe48979195a32d8b4746a09d808d8170a34ab9f13671100088490d",
+    "output_sha256": "d90b68a3dcfe48979195a32d8b4746a09d808d8170a34ab9f13671100088490d",
+    "changes": "Original bytes"
+  },
+  {
+    "file": "european_walnut_veneer_05-roughness.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/european_walnut_veneer_05/european_walnut_veneer_05_rough_1k.jpg",
+    "md5": "9a43bc928c47220a361f49cfcba666f0",
+    "destination": "materials/walnut-roughness.jpg",
+    "source": "https://polyhaven.com/a/european_walnut_veneer_05",
+    "license": "CC0-1.0",
+    "source_sha256": "bee09710a4cbc666c64b72c4afd982c5d6932b324ef4a2ae18f24e9a84aae793",
+    "output_sha256": "bee09710a4cbc666c64b72c4afd982c5d6932b324ef4a2ae18f24e9a84aae793",
+    "changes": "Original bytes"
+  },
+  {
+    "file": "urban-courtyard.hdr",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/urban_courtyard_2k.hdr",
+    "md5": "3e74fc2dd2c9aa1676f7629b815763f9",
+    "destination": "daylight.hdr",
+    "source": "https://polyhaven.com/a/urban_courtyard",
+    "license": "CC0-1.0",
+    "source_sha256": "f907cb550c920d3f6c2305761919066f77c82fd79dd690881660c82fcc9aa1c3",
+    "output_sha256": "f907cb550c920d3f6c2305761919066f77c82fd79dd690881660c82fcc9aa1c3",
+    "changes": "Original bytes"
+  },
+  {
+    "file": "receptionist-original.glb",
+    "url": "https://www.innerscene.com/api/library/mei-3d-person-receptionist-d36b82b9/download",
+    "sha256": "04c4ec59f5704db616bd9955405ea8774e61e32ceb3973d13a75f9db14a50c3e",
+    "destination": "models/receptionist.glb",
+    "source": "https://www.innerscene.com/tools/library/3d-parts/mei-3d-person-receptionist-d36b82b9",
+    "license": "CC0-1.0",
+    "author": "Innerscene, adapted from MakeHuman CC0 assets",
+    "source_sha256": "04c4ec59f5704db616bd9955405ea8774e61e32ceb3973d13a75f9db14a50c3e",
+    "output_sha256": "b48e8f9478905f96dbea92ae3ccf5d04cbc7909bdd42555ec97b0fd124ac677f",
+    "changes": "Textures resized to 1K; geometry and PBR materials preserved"
+  }
+]

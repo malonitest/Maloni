@@ -1,0 +1,73 @@
+{
+  "repository": "https://github.com/pedrosoandre/carros",
+  "revision": "2d18dfd9db96bbf0d9cffa949deaf7f571388cbf",
+  "checked": "2026-10-23",
+  "models": [
+    {
+      "id": "bmw-x1",
+      "file": "bmw-x1.glb",
+      "sha256": "e8285463531538d9ae68816f6bf657fb65b64847f2507aa226b676085345da64",
+      "library_url": "https://raw.githubusercontent.com/pedrosoandre/carros/2d18dfd9db96bbf0d9cffa949deaf7f571388cbf/assets/bmw-x1.glb",
+      "credit": {
+        "author": "Merc_TV",
+        "authorUrl": "https://sketchfab.com/szymonpasterczyk",
+        "license": "CC Attribution",
+        "sourceName": "BMW X1 2013",
+        "sourceUrl": "https://sketchfab.com/3d-models/302b32456b054dbdb5b72a08aca2bb80"
+      },
+      "embedded_credit": {
+        "author": "szymonpasterczyk734 (https://sketchfab.com/szymonpasterczyk734)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/bmw-x1-2013-302b32456b054dbdb5b72a08aca2bb80",
+        "title": "BMW X1 2013"
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Upstream: mesh simplification and meshopt compression. Maloni: decompression, quantized position normalization, coordinate rotation, uniform scaling, OBJ export, vertex-color palette baking and material conversion. Geometry is a visual reference, not certified manufacturer CAD. Further Maloni presentation changes: color-based surface separation, paint/glass/chrome/rubber materials and paint recoloring (teal CHERY, silver Volvo, dark red BMW). Original GLB bytes unchanged."
+    },
+    {
+      "id": "volvo-xc60",
+      "file": "volvo-xc60.glb",
+      "sha256": "8897b5da6e184b5dba61a446157e7bb9d51a14e02aba8098443005af09881463",
+      "library_url": "https://raw.githubusercontent.com/pedrosoandre/carros/2d18dfd9db96bbf0d9cffa949deaf7f571388cbf/assets/volvo-xc60.glb",
+      "credit": {
+        "author": "Nazh Design ✔",
+        "authorUrl": "https://sketchfab.com/NazhDesign",
+        "license": "CC Attribution",
+        "sourceName": "2023 Volvo XC60 Recharge",
+        "sourceUrl": "https://sketchfab.com/3d-models/c35ef02fd38b48adadc17f117a4a518c"
+      },
+      "embedded_credit": {
+        "author": "Nazh Design ✔ (https://sketchfab.com/NazhDesign)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/2023-volvo-xc60-recharge-c35ef02fd38b48adadc17f117a4a518c",
+        "title": "2023 Volvo XC60 Recharge"
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Upstream: mesh simplification and meshopt compression. Maloni: decompression, quantized position normalization, coordinate rotation, uniform scaling, OBJ export, vertex-color palette baking and material conversion. Geometry is a visual reference, not certified manufacturer CAD. Further Maloni presentation changes: color-based surface separation, paint/glass/chrome/rubber materials and paint recoloring (teal CHERY, silver Volvo, dark red BMW). Original GLB bytes unchanged."
+    },
+    {
+      "id": "chery-tiggo",
+      "file": "chery-tiggo.glb",
+      "sha256": "7fd9cc472f244f2e907223d6e4ea66d2f7a660fe188e8ab9225bb9f3bf3f94d4",
+      "library_url": "https://raw.githubusercontent.com/pedrosoandre/carros/2d18dfd9db96bbf0d9cffa949deaf7f571388cbf/assets/chery-tiggo.glb",
+      "credit": {
+        "author": "Nazh Design ✔",
+        "authorUrl": "https://sketchfab.com/NazhDesign",
+        "license": "CC Attribution",
+        "sourceName": "2023 Chery Tiggo 8 Pro",
+        "sourceUrl": "https://sketchfab.com/3d-models/b8d34fba89ca45918e851eaab3b5b679"
+      },
+      "embedded_credit": {
+        "author": "Nazh Design ✔ (https://sketchfab.com/NazhDesign)",
+        "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "source": "https://sketchfab.com/3d-models/2023-chery-tiggo-8-pro-b8d34fba89ca45918e851eaab3b5b679",
+        "title": "2023 Chery Tiggo 8 Pro"
+      },
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Upstream: mesh simplification and meshopt compression. Maloni: decompression, quantized position normalization, coordinate rotation, uniform scaling, OBJ export, vertex-color palette baking and material conversion. Geometry is a visual reference, not certified manufacturer CAD. Further Maloni presentation changes: color-based surface separation, paint/glass/chrome/rubber materials and paint recoloring (teal CHERY, silver Volvo, dark red BMW). Original GLB bytes unchanged."
+    }
+  ]
+}

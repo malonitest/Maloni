@@ -29,3 +29,19 @@ MUJOCO_LOG.TXT
 !.env.example
 *.pem
 *.key
+
+/benchmark_results/
+
+/.benchmark-development-results/
+
+# Showroom downloads/conversions and local presentation evidence.
+/chery_showroom/assets/furnishings/*/
+/chery_showroom/assets/review/
+/chery_showroom/assets/*.mp4
+
+# Prepared speech cache (no credentials stored).
+/chery_showroom/assets/arrival_audio/
+/chery_showroom/assets/arrival_audio_en/
+
+/chery_showroom/web/node_modules/
+/chery_showroom/assets/realism/source/

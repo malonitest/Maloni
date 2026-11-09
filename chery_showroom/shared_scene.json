@@ -1,0 +1,529 @@
+{
+  "version": 1,
+  "units": "metres",
+  "up_axis": "z",
+  "objects": {
+    "back_wall": {
+      "kind": "box",
+      "position": [
+        0,
+        6.5,
+        2.5
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        18,
+        0.16,
+        5
+      ]
+    },
+    "left_wall": {
+      "kind": "box",
+      "position": [
+        -9,
+        0,
+        2.5
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        0.16,
+        13,
+        5
+      ]
+    },
+    "right_wall": {
+      "kind": "box",
+      "position": [
+        9,
+        0,
+        2.5
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        0.16,
+        13,
+        5
+      ]
+    },
+    "reception_counter": {
+      "kind": "counter",
+      "position": [
+        -2.2,
+        -2.7,
+        0.55
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        3.02,
+        1.06,
+        1.1
+      ],
+      "parts": {
+        "body": {
+          "size": [
+            2.9,
+            0.94,
+            1.0
+          ],
+          "offset": [
+            0,
+            0,
+            -0.03
+          ]
+        },
+        "front": {
+          "size": [
+            2.67,
+            0.035,
+            0.77
+          ],
+          "offset": [
+            0,
+            -0.473,
+            0.03
+          ]
+        },
+        "trim": {
+          "size": [
+            2.72,
+            0.03,
+            0.035
+          ],
+          "offset": [
+            0,
+            -0.46,
+            -0.44
+          ]
+        },
+        "top": {
+          "height": 0.075,
+          "offset": [
+            0,
+            0,
+            0.508
+          ]
+        }
+      }
+    },
+    "staff_desk": {
+      "kind": "box",
+      "position": [
+        0,
+        0.6,
+        0.29
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        2.65,
+        0.45,
+        0.055
+      ],
+      "parent": "reception_counter"
+    },
+    "left_lounge_chair": {
+      "kind": "chair",
+      "position": [
+        2.15,
+        -3.3,
+        0.012
+      ],
+      "yaw": 1.5707963267948966,
+      "collision": {
+        "offset": [
+          0,
+          0,
+          0.438
+        ],
+        "yaw": -1.5707963267948966
+      },
+      "size": [
+        0.8,
+        0.9,
+        0.9
+      ]
+    },
+    "right_lounge_chair": {
+      "kind": "chair",
+      "position": [
+        4.45,
+        -3.3,
+        0.012
+      ],
+      "yaw": -1.5707963267948966,
+      "collision": {
+        "offset": [
+          0,
+          0,
+          0.438
+        ],
+        "yaw": 1.5707963267948966
+      },
+      "size": [
+        0.8,
+        0.9,
+        0.9
+      ]
+    },
+    "reception_chair": {
+      "kind": "chair",
+      "position": [
+        -1.05,
+        -1.1,
+        0
+      ],
+      "yaw": -0.35,
+      "collision": {
+        "offset": [
+          0,
+          0,
+          0.45
+        ],
+        "yaw": 0.35
+      },
+      "size": [
+        1.06,
+        1.12,
+        0.9
+      ]
+    },
+    "consultation_bench": {
+      "kind": "bench",
+      "position": [
+        -8.43,
+        -2.1,
+        0
+      ],
+      "yaw": 0,
+      "collision": {
+        "offset": [
+          0,
+          0,
+          0.45
+        ]
+      },
+      "size": [
+        0.75,
+        4.8,
+        0.9
+      ]
+    },
+    "coffee_table": {
+      "kind": "table",
+      "position": [
+        3.3,
+        -3.3,
+        0.5
+      ],
+      "yaw": 0,
+      "collision": {
+        "floor_to_top": true
+      },
+      "size": [
+        0.97,
+        0.74,
+        0.045
+      ]
+    },
+    "front_panel_0": {
+      "kind": "glazing",
+      "position": [
+        -7.5,
+        -6.43,
+        1.53
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        2.935,
+        0.02,
+        2.88
+      ]
+    },
+    "front_panel_1": {
+      "kind": "glazing",
+      "position": [
+        -4.5,
+        -6.43,
+        1.53
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        2.935,
+        0.02,
+        2.88
+      ]
+    },
+    "front_panel_2": {
+      "kind": "glazing",
+      "position": [
+        -2.1,
+        -6.43,
+        1.53
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        1.735,
+        0.02,
+        2.88
+      ]
+    },
+    "front_panel_3": {
+      "kind": "glazing",
+      "position": [
+        2.1,
+        -6.43,
+        1.53
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        1.735,
+        0.02,
+        2.88
+      ]
+    },
+    "front_panel_4": {
+      "kind": "glazing",
+      "position": [
+        4.5,
+        -6.43,
+        1.53
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        2.935,
+        0.02,
+        2.88
+      ]
+    },
+    "front_panel_5": {
+      "kind": "glazing",
+      "position": [
+        7.5,
+        -6.43,
+        1.53
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        2.935,
+        0.02,
+        2.88
+      ]
+    },
+    "front_door_0": {
+      "kind": "glazing",
+      "position": [
+        -0.6,
+        -6.43,
+        1.53
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        1.12,
+        0.025,
+        2.88
+      ]
+    },
+    "front_door_1": {
+      "kind": "glazing",
+      "position": [
+        0.6,
+        -6.43,
+        1.53
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        1.12,
+        0.025,
+        2.88
+      ]
+    },
+    "front_upper": {
+      "kind": "glazing",
+      "position": [
+        0,
+        -6.43,
+        3.9
+      ],
+      "yaw": 0,
+      "collision": true,
+      "size": [
+        18,
+        0.02,
+        1.72
+      ]
+    },
+    "tiggo4": {
+      "kind": "vehicle",
+      "position": [
+        -6.3,
+        3.6,
+        0.005
+      ],
+      "yaw": 0,
+      "collision": {
+        "offset": [
+          0,
+          0,
+          0.945
+        ]
+      },
+      "size": [
+        4.48,
+        2.05,
+        1.9
+      ]
+    },
+    "tiggo7": {
+      "kind": "vehicle",
+      "position": [
+        0.0,
+        3.6,
+        0.005
+      ],
+      "yaw": 0,
+      "collision": {
+        "offset": [
+          0,
+          0,
+          0.945
+        ]
+      },
+      "size": [
+        4.69,
+        2.05,
+        1.9
+      ]
+    },
+    "tiggo8": {
+      "kind": "vehicle",
+      "position": [
+        6.3,
+        3.6,
+        0.005
+      ],
+      "yaw": 0,
+      "collision": {
+        "offset": [
+          0,
+          0,
+          0.945
+        ]
+      },
+      "size": [
+        4.72,
+        2.05,
+        1.9
+      ]
+    },
+    "robot_reception": {
+      "kind": "anchor",
+      "position": [
+        0,
+        1.22,
+        -0.55
+      ],
+      "yaw": -1.5707963267948966,
+      "collision": false,
+      "parent": "reception_counter"
+    },
+    "customer_reception": {
+      "kind": "anchor",
+      "position": [
+        0,
+        -1.35,
+        -0.55
+      ],
+      "yaw": 3.141592653589793,
+      "collision": false,
+      "parent": "reception_counter"
+    }
+  },
+  "waypoints": {
+    "entrance": {
+      "position": [
+        0,
+        -4.85,
+        0
+      ]
+    },
+    "reception": {
+      "parent": "robot_reception",
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    "vehicle_1": {
+      "parent": "tiggo4",
+      "position": [
+        0,
+        -3.5,
+        -0.005
+      ]
+    },
+    "vehicle_2": {
+      "parent": "tiggo7",
+      "position": [
+        0,
+        -3.5,
+        -0.005
+      ]
+    },
+    "vehicle_3": {
+      "parent": "tiggo8",
+      "position": [
+        0,
+        -3.5,
+        -0.005
+      ]
+    },
+    "waiting_area": {
+      "parent": "coffee_table",
+      "position": [
+        0,
+        1.4,
+        -0.5
+      ]
+    },
+    "reception_approach": {
+      "parent": "reception_counter",
+      "position": [
+        -0.65,
+        2.07,
+        -0.55
+      ]
+    }
+  },
+  "navigation": {
+    "bounds": [
+      [
+        -8.3,
+        -5.75
+      ],
+      [
+        8.3,
+        5.8
+      ]
+    ],
+    "clearance": 0.35,
+    "extra_clearance": 0.1,
+    "return_clearance": 0.65,
+    "return_entry_offset": [
+      0.0,
+      0.65
+    ]
+  }
+}
